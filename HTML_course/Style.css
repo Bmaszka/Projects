@@ -1,0 +1,49 @@
+	body{
+		background-color:#a6f45c;
+		color:black;
+		margin: 0px;
+		}
+		/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+a {
+text-decoration: none;
+}
+#spis li{
+	font-size: 20px;
+}
+#spis a{
+	font-size: 25px;
+}
+
+h1 {
+	border-bottom: 5px solid yellow;
+	background-color: red;
+	color: green;
+	text-align:center;
+	-webkit-margin-before: 0em;
+	padding:1em;
+}
+
+
+	img.powrot{
+		width:20px;
+		height:20px;
+	}
+
