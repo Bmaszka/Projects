@@ -30,8 +30,18 @@
 
 #currentcolor
 {
+	margin:25px 0px 0px 0px;
+	display:inline-block;
 	width:30px;
 	height:30px;
 	border:2px solid block;
 	background-color:white;
+}
+.button
+{
+	display:inline-block;
+	width:100px;
+	height:18px;
+	border: 2px solid black;
+	margin: 25 25 25 25;
 }
