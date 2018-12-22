@@ -6,10 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
-<body>
+<body onload = "addRowsAtLoad()">
 	<div id="toolbox">
 	<div class="button" onclick="addRow()">dodaj wiersz</div>
 	<div class="button" onclick="removeRow()">usuń wiersz</div>
+	<div class="button" onclick="addColumn()">dodaj kolumne</div>
+	<div class="button" onclick="removeColumn()">usuń kolumne</div>
 	</div>
 	<div id="palette" >
 	<div class="pen" style="background-color:black" onclick ="setPenColor('black')"></div>
@@ -26,94 +28,7 @@
 	</div>
 <div id="art">
 
-	<div class="row">
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
-	<div class="row">
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
-		<div class="row">
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
-		<div class="row">
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	   <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
-		<div class="row">
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	   <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
-		<div class="row">
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	  <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
-		<div class="row">
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	 <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
-		<div class="row">
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	    <div class="pixel" onclick="setPixelColor(this)"></div>
-		<div class="pixel" onclick="setPixelColor(this)"></div>
-	   <div class="pixel" onclick="setPixelColor(this)"></div>
-	</div>	
+	
 </div>
 	<div id="track">
 		<div id="currentcolor"></div>
