@@ -1,47 +1,49 @@
 #art
 {
-	display:table;
-	border-spacing: 1px;
-	background-color: black;
-	border: 5px solid black;
-	
+   display:table;
+   border-spacing: 1px;
+   background-color : black;
+   border: 5px solid black;
 }
 
 .row
 {
-	display:table-row;
+   display: table-row;
 }
 
 .pixel
 {
-	display:table-cell;
-	width:40px;
-	height:40px;
-	background-color:white;
+   display:table-cell;
+   width: 40px ;
+   height: 40px;
+   background-color: white;
 }
 
 .pen
 {
-	display:inline-block;
-	width:30px;
-	height:30px;
-	border: 2px solid black;
+   display: inline-block;
+   width: 30px ;
+   height: 30px;
+   border: 2px solid black;
 }
-
-#currentcolor
+#currentColor
 {
-	margin:25px 0px 0px 0px;
-	display:inline-block;
-	width:30px;
-	height:30px;
-	border:2px solid block;
-	background-color:white;
+   margin: 10px 0px  0px 0px;
+   display: inline-block;
+   width: 30px ;
+   height: 30px;
+   border: 2px solid black;  
+   background-color: black;
+    
 }
 .button
 {
-	display:inline-block;
-	width:100px;
-	height:18px;
-	border: 2px solid black;
-	margin: 25 25 25 25;
+   display: inline-block;
+   width: 100px ;
+   padding:5px;
+   border: 2px solid black;
+}
+#toolBox
+{
+   padding: 5px;
 }
